@@ -29,7 +29,7 @@ const handleChange = (e: Event) => {
       data.isCompleted ? 'opacity-50' : '',
     ]"
   >
-    <div className="w-8 flex justify-center">
+    <div class="w-8 flex justify-center">
       <input :id="`task-${id}`" type="checkbox" @change="handleChange" />
     </div>
     <label

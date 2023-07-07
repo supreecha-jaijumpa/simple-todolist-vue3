@@ -8,11 +8,11 @@ const { todo } = storeToRefs(todoStore);
 </script>
 
 <template>
-  <ul className="m-0 p-0 list-none flex flex-col">
+  <ul class="m-0 p-0 list-none flex flex-col">
     <Task v-for="task in todo" :key="task.id" :data="task" />
     <li
       v-if="!todo.length"
-      className="border-b border-blue-400 py-1 pl-12 text-slate-400"
+      class="border-b border-blue-400 py-1 pl-12 text-slate-400"
     >
       Not found task :)
     </li>

@@ -11,12 +11,12 @@ const { clearCompleted } = useTodoStore();
 </script>
 
 <template>
-  <div className="flex justify-center items-center py-12">
+  <div class="flex justify-center items-center py-12">
     <Card>
       <CardHeader title="Simple To-Do List">
         <template #extra
           ><button
-            className="text-sm border px-2 rounded hover:bg-slate-50 hover:shadow-sm"
+            class="text-sm border px-2 rounded hover:bg-slate-50 hover:shadow-sm"
             @click="clearCompleted"
           >
             Clear completed

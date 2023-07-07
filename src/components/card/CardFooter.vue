@@ -1,5 +1,5 @@
 <template>
-  <div className="w-full py-2">
+  <div class="w-full py-2">
     <slot />
   </div>
 </template>

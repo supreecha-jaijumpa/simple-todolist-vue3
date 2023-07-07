@@ -32,7 +32,7 @@ const handleSubmit = async () => {
 </script>
 
 <template>
-  <form className="w-full flex space-x-2" @submit.prevent="handleSubmit">
+  <form class="w-full flex space-x-2" @submit.prevent="handleSubmit">
     <input
       v-model="form.task"
       type="text"
@@ -42,7 +42,7 @@ const handleSubmit = async () => {
       ]"
     />
     <button
-      className="flex-shrink-0 border px-2 rounded hover:bg-slate-50 hover:shadow-sm"
+      class="flex-shrink-0 border px-2 rounded hover:bg-slate-50 hover:shadow-sm"
       type="submit"
     >
       Add
